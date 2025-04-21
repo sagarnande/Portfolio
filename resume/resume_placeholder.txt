@@ -1,0 +1,9 @@
+Instructions for adding your resume PDF:
+
+1. Place your resume PDF file named "Sagar_Nande_Resume.pdf" in this "resume" folder.
+2. Make sure the file name matches exactly: "Sagar_Nande_Resume.pdf" 
+3. If your resume has a different filename, either rename your file or update the link in index.html.
+
+The resume icon in your portfolio will now link directly to this PDF file, allowing visitors to view or download your resume.
+
+Note: Your resume should be well-formatted and professional, as it's an important part of your portfolio presentation. 

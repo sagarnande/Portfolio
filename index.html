@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sagar's Portfolio</title> 
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Section 1: Hero & Skills -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Nande Sagar</span></h1>
+                <p class="subtitle">Web Developer</p>
+                <p class="hero-description">I'm a web developer focused on building easy-to-use, responsive websites with seamless backend integration and robust database support.</p>
+                <div class="social-links">
+                    <a href="https://github.com/sagarnande" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/sagar-nande-410a48350/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="resume/MyResume.pdf" target="_blank"><i class="fas fa-file-alt"></i></a>
+                </div>
+            </div>
+            
+            <div class="hero-skills">
+                <div class="skills-container">
+                    <div class="skill-icon"><img src="images/html5.svg" alt="HTML5"></div>
+                    <div class="skill-icon"><img src="images/css3.svg" alt="CSS3"></div>
+                    <div class="skill-icon"><img src="images/javascript.svg" alt="JavaScript"></div>
+                    <div class="skill-icon"><img src="images/python.svg" alt="Python"></div>
+                    <div class="skill-icon"><img src="images/flask.svg" alt="Flask"></div>
+                    <div class="skill-icon"><img src="images/java.svg" alt="Java"></div>
+                    <div class="skill-icon"><img src="images/c.svg" alt="C"></div>
+                    <div class="skill-icon"><img src="images/cpp.svg" alt="C++"></div>
+                    <div class="skill-icon"><img src="images/sql.svg" alt="SQL"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Projects -->
+    <section class="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-images">
+                    <div class="image-carousel">
+                        <div class="carousel-container">
+                            <img src="images/projects/Agri_home.png" alt="Smart Agri Home Page" class="carousel-image active">
+                            <img src="images/projects/Agri_login.png" alt="Smart Agri Login Page" class="carousel-image">
+                            <img src="images/projects/Agri_services.png" alt="Smart Agri Services Page" class="carousel-image">
+                            <img src="images/projects/Agri_scheme.png" alt="Smart Agri Schemes Page" class="carousel-image">
+                        </div>
+                        <div class="carousel-controls">
+                            <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                            <div class="carousel-dots">
+                                <span class="dot active" data-index="0"></span>
+                                <span class="dot" data-index="1"></span>
+                                <span class="dot" data-index="2"></span>
+                                <span class="dot" data-index="3"></span>
+                            </div>
+                            <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Smart Agri</h3>
+                    <p>Developed a web application named SmartAgri as part of a team using HTML, CSS, JavaScript for the frontend, Flask for the backend, and PostgreSQL as the database to support farmers by focusing on government schemes, crop guidance, and promoting farming as a smart and sustainable solution.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/sagarnande/SmartAgri" class="btn small"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="#" class="btn small demo-btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-images">
+                    <div class="image-carousel">
+                        <div class="carousel-container">
+                            <img src="images/projects/Expense_log.png" alt="Expense Tracker Screenshot 1" class="carousel-image active">
+                            <img src="images/projects/Expense_add.png" alt="Expense Tracker Screenshot 2" class="carousel-image">
+                            <img src="images/projects/Expense_list.png" alt="Expense Tracker Screenshot 3" class="carousel-image">
+                            <img src="images/projects/Expense_tot.png" alt="Expense Tracker Screenshot 3" class="carousel-image">
+                            <img src="images/projects/Expense_filter.png" alt="Expense Tracker Screenshot 3" class="carousel-image">
+                        </div>
+                        <div class="carousel-controls">
+                            <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                            <div class="carousel-dots">
+                                <span class="dot active" data-index="0"></span>
+                                <span class="dot" data-index="1"></span>
+                                <span class="dot" data-index="2"></span>
+                                <span class="dot" data-index="3"></span>
+                                <span class="dot" data-index="4"></span>
+                            </div>
+                            <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Expense Tracker</h3>
+                    <p>Created a Daily Expense Tracker application using Python (Streamlit) and SQLite database to manage and store daily, weekly, and monthly expense details efficiently.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/sagarnande/ExpenseTracker" class="btn small"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="https://expense-tracker110.streamlit.app/" class="btn small demo-btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>Contact</p>
+            <p><a href="mailto:sagarnande915@gmail.com">sagarnande915@gmail.com</a></p>
+            <p>&copy; 2025 Nande Sagar.All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox for project images -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="Enlarged project image">
+            <div class="lightbox-caption" id="lightbox-caption"></div>
+        </div>
+        <button class="lightbox-prev"><i class="fas fa-chevron-left"></i></button>
+        <button class="lightbox-next"><i class="fas fa-chevron-right"></i></button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
